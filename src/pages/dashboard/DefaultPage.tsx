@@ -4,7 +4,7 @@ type Props = {};
 
 const DefaultPage = (props: Props) => {
   return (
-    <div>DefaultPage</div>
+    <div>Recupero dati da DB</div>
   );
 };
 

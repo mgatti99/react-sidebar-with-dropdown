@@ -28,7 +28,7 @@ const appRoutes: RouteType[] = [
     element: <InstallationPage />,
     state: "installation",
     sidebarProps: {
-      displayText: "Installation",
+      displayText: "Installazione",
       icon: <FileDownloadOutlinedIcon />
     }
   },
@@ -37,7 +37,7 @@ const appRoutes: RouteType[] = [
     element: <DashboardPageLayout />,
     state: "dashboard",
     sidebarProps: {
-      displayText: "Dashboard",
+      displayText: "Controlli",
       icon: <DashboardOutlinedIcon />
     },
     child: [
@@ -51,7 +51,7 @@ const appRoutes: RouteType[] = [
         element: <DefaultPage />,
         state: "dashboard.default",
         sidebarProps: {
-          displayText: "Default"
+          displayText: "Controlli di Base"
         },
       },
       {
